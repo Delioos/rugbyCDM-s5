@@ -1,0 +1,1214 @@
+{
+	"France": [
+		{
+			"idJoueur": 1,
+			"nomJoueur": "Stapels",
+			"prenomJoueur": "Margaret",
+			"numPost": 1,
+			"libellePost": "pilier",
+			"dureeDeJeu": 69,
+			"pointsMarques": 14,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 2,
+			"nomJoueur": "Hunnicutt",
+			"prenomJoueur": "Filia",
+			"numPost": 2,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 23,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 3,
+			"nomJoueur": "Westover",
+			"prenomJoueur": "Elmore",
+			"numPost": 3,
+			"libellePost": "pilier",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 4,
+			"nomJoueur": "Lorenzin",
+			"prenomJoueur": "Rozalin",
+			"numPost": 4,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 29,
+			"pointsMarques": 11,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 5,
+			"nomJoueur": "Rydzynski",
+			"prenomJoueur": "Brandy",
+			"numPost": 5,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 50,
+			"pointsMarques": 7,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 6,
+			"nomJoueur": "Narducci",
+			"prenomJoueur": "Damon",
+			"numPost": 6,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 7,
+			"nomJoueur": "Lydden",
+			"prenomJoueur": "Betteanne",
+			"numPost": 7,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 58,
+			"pointsMarques": 5,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 8,
+			"nomJoueur": "Izon",
+			"prenomJoueur": "Peder",
+			"numPost": 8,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 9,
+			"nomJoueur": "Rabbage",
+			"prenomJoueur": "Clim",
+			"numPost": 9,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 23,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 10,
+			"nomJoueur": "Warman",
+			"prenomJoueur": "Jeremias",
+			"numPost": 10,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 23,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 11,
+			"nomJoueur": "Cruddace",
+			"prenomJoueur": "Tammara",
+			"numPost": 11,
+			"libellePost": "ailier",
+			"dureeDeJeu": null,
+			"pointsMarques": 3,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 12,
+			"nomJoueur": "McCurtain",
+			"prenomJoueur": "Sigismund",
+			"numPost": 12,
+			"libellePost": "centre",
+			"dureeDeJeu": 22,
+			"pointsMarques": 6,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 13,
+			"nomJoueur": "Gencke",
+			"prenomJoueur": "Anatollo",
+			"numPost": 13,
+			"libellePost": "centre",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 14,
+			"nomJoueur": "Eyers",
+			"prenomJoueur": "Allie",
+			"numPost": 14,
+			"libellePost": "ailier",
+			"dureeDeJeu": 39,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 15,
+			"nomJoueur": "Saull",
+			"prenomJoueur": "Timotheus",
+			"numPost": 15,
+			"libellePost": "arriere",
+			"dureeDeJeu": 65,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 16,
+			"nomJoueur": "Mapis",
+			"prenomJoueur": "Bruce",
+			"numPost": 16,
+			"libellePost": "pilier",
+			"dureeDeJeu": 58,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 17,
+			"nomJoueur": "Woodward",
+			"prenomJoueur": "Rosco",
+			"numPost": 17,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 76,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 18,
+			"nomJoueur": "Toplis",
+			"prenomJoueur": "Gwendolin",
+			"numPost": 18,
+			"libellePost": "pilier",
+			"dureeDeJeu": null,
+			"pointsMarques": 4,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 19,
+			"nomJoueur": "Danne",
+			"prenomJoueur": "Syman",
+			"numPost": 19,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 58,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 20,
+			"nomJoueur": "Hall-Gough",
+			"prenomJoueur": "Padget",
+			"numPost": 20,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 74,
+			"pointsMarques": null,
+			"estTitulaire": false
+		}
+	],
+	"Irelande": [
+		{
+			"idJoueur": 21,
+			"nomJoueur": "Menco",
+			"prenomJoueur": "Mirilla",
+			"numPost": 1,
+			"libellePost": "pilier",
+			"dureeDeJeu": 59,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 22,
+			"nomJoueur": "Ahren",
+			"prenomJoueur": "Simone",
+			"numPost": 2,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 53,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 23,
+			"nomJoueur": "Snelgrove",
+			"prenomJoueur": "Trace",
+			"numPost": 3,
+			"libellePost": "pilier",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 24,
+			"nomJoueur": "Morfell",
+			"prenomJoueur": "Dael",
+			"numPost": 4,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 30,
+			"pointsMarques": 10,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 25,
+			"nomJoueur": "Draxford",
+			"prenomJoueur": "Bobby",
+			"numPost": 5,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 57,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 26,
+			"nomJoueur": "Eastcourt",
+			"prenomJoueur": "Roana",
+			"numPost": 6,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": null,
+			"pointsMarques": 7,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 27,
+			"nomJoueur": "Cushelly",
+			"prenomJoueur": "Perry",
+			"numPost": 7,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 46,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 28,
+			"nomJoueur": "Turpin",
+			"prenomJoueur": "Corby",
+			"numPost": 8,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 29,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 29,
+			"nomJoueur": "Heazel",
+			"prenomJoueur": "Ethe",
+			"numPost": 9,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 56,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 30,
+			"nomJoueur": "Horning",
+			"prenomJoueur": "Faustina",
+			"numPost": 10,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 24,
+			"pointsMarques": 5,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 31,
+			"nomJoueur": "Fuller",
+			"prenomJoueur": "Rowney",
+			"numPost": 11,
+			"libellePost": "ailier",
+			"dureeDeJeu": 16,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 32,
+			"nomJoueur": "Hackney",
+			"prenomJoueur": "Min",
+			"numPost": 12,
+			"libellePost": "centre",
+			"dureeDeJeu": 58,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 33,
+			"nomJoueur": "Abbay",
+			"prenomJoueur": "Timotheus",
+			"numPost": 13,
+			"libellePost": "centre",
+			"dureeDeJeu": 53,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 34,
+			"nomJoueur": "Batkin",
+			"prenomJoueur": "Aldric",
+			"numPost": 14,
+			"libellePost": "ailier",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 35,
+			"nomJoueur": "Vanner",
+			"prenomJoueur": "Erny",
+			"numPost": 15,
+			"libellePost": "arriere",
+			"dureeDeJeu": 42,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 36,
+			"nomJoueur": "Duval",
+			"prenomJoueur": "Faina",
+			"numPost": 16,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 26,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 37,
+			"nomJoueur": "Garmey",
+			"prenomJoueur": "Dwain",
+			"numPost": 17,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 63,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 38,
+			"nomJoueur": "Sorbey",
+			"prenomJoueur": "Melloney",
+			"numPost": 18,
+			"libellePost": "centre",
+			"dureeDeJeu": 74,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 39,
+			"nomJoueur": "Dominichelli",
+			"prenomJoueur": "Leda",
+			"numPost": 19,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 69,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 40,
+			"nomJoueur": "Vipan",
+			"prenomJoueur": "Malanie",
+			"numPost": 20,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 58,
+			"pointsMarques": 14,
+			"estTitulaire": false
+		}
+	],
+	"New Zealand": [
+		{
+			"idJoueur": 41,
+			"nomJoueur": "Erik",
+			"prenomJoueur": "Kora",
+			"numPost": 1,
+			"libellePost": "pilier",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 42,
+			"nomJoueur": "Forrester",
+			"prenomJoueur": "Adan",
+			"numPost": 2,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 63,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 43,
+			"nomJoueur": "Mayhead",
+			"prenomJoueur": "Casey",
+			"numPost": 3,
+			"libellePost": "pilier",
+			"dureeDeJeu": 30,
+			"pointsMarques": 10,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 44,
+			"nomJoueur": "Pheasey",
+			"prenomJoueur": "Andre",
+			"numPost": 4,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 39,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 45,
+			"nomJoueur": "Knocker",
+			"prenomJoueur": "Lancelot",
+			"numPost": 5,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 56,
+			"pointsMarques": 2,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 46,
+			"nomJoueur": "Mityukov",
+			"prenomJoueur": "Parsifal",
+			"numPost": 6,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 78,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 47,
+			"nomJoueur": "Stedman",
+			"prenomJoueur": "Leighton",
+			"numPost": 7,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 36,
+			"pointsMarques": 4,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 48,
+			"nomJoueur": "Castagnaro",
+			"prenomJoueur": "Fraser",
+			"numPost": 8,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 79,
+			"pointsMarques": 11,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 49,
+			"nomJoueur": "Maynell",
+			"prenomJoueur": "Mia",
+			"numPost": 9,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 68,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 50,
+			"nomJoueur": "Pieterick",
+			"prenomJoueur": "Selena",
+			"numPost": 10,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 21,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 51,
+			"nomJoueur": "Canto",
+			"prenomJoueur": "Silvan",
+			"numPost": 11,
+			"libellePost": "ailier",
+			"dureeDeJeu": 65,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 52,
+			"nomJoueur": "Moses",
+			"prenomJoueur": "Iago",
+			"numPost": 12,
+			"libellePost": "centre",
+			"dureeDeJeu": 74,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 53,
+			"nomJoueur": "Pryell",
+			"prenomJoueur": "Kristo",
+			"numPost": 13,
+			"libellePost": "centre",
+			"dureeDeJeu": 44,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 54,
+			"nomJoueur": "Soars",
+			"prenomJoueur": "Geneva",
+			"numPost": 14,
+			"libellePost": "ailier",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 55,
+			"nomJoueur": "Bottlestone",
+			"prenomJoueur": "Shalna",
+			"numPost": 15,
+			"libellePost": "arriere",
+			"dureeDeJeu": 57,
+			"pointsMarques": 3,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 56,
+			"nomJoueur": "Matveiko",
+			"prenomJoueur": "Marv",
+			"numPost": 16,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 52,
+			"pointsMarques": 1,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 57,
+			"nomJoueur": "Oxburgh",
+			"prenomJoueur": "Allsun",
+			"numPost": 17,
+			"libellePost": "centre",
+			"dureeDeJeu": 50,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 58,
+			"nomJoueur": "Brent",
+			"prenomJoueur": "Kata",
+			"numPost": 18,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 58,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 59,
+			"nomJoueur": "Swinnerton",
+			"prenomJoueur": "Giff",
+			"numPost": 19,
+			"libellePost": "centre",
+			"dureeDeJeu": 60,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 60,
+			"nomJoueur": "Siggers",
+			"prenomJoueur": "Tyrus",
+			"numPost": 20,
+			"libellePost": "ailier",
+			"dureeDeJeu": 29,
+			"pointsMarques": null,
+			"estTitulaire": false
+		}
+	],
+	"Tonga": [
+		{
+			"idJoueur": 61,
+			"nomJoueur": "Korneev",
+			"prenomJoueur": "Lelia",
+			"numPost": 1,
+			"libellePost": "pilier",
+			"dureeDeJeu": 70,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 62,
+			"nomJoueur": "Kenford",
+			"prenomJoueur": "Holt",
+			"numPost": 2,
+			"libellePost": "talonneur",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 63,
+			"nomJoueur": "Jacombs",
+			"prenomJoueur": "Talya",
+			"numPost": 3,
+			"libellePost": "pilier",
+			"dureeDeJeu": 55,
+			"pointsMarques": 4,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 64,
+			"nomJoueur": "Leonida",
+			"prenomJoueur": "Salvador",
+			"numPost": 4,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": null,
+			"pointsMarques": 12,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 65,
+			"nomJoueur": "Domoney",
+			"prenomJoueur": "Alameda",
+			"numPost": 5,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 24,
+			"pointsMarques": 7,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 66,
+			"nomJoueur": "Camelin",
+			"prenomJoueur": "Hamish",
+			"numPost": 6,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 67,
+			"nomJoueur": "Rolling",
+			"prenomJoueur": "Napoleon",
+			"numPost": 7,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 58,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 68,
+			"nomJoueur": "Rosenberger",
+			"prenomJoueur": "Dennison",
+			"numPost": 8,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 62,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 69,
+			"nomJoueur": "Jakobssen",
+			"prenomJoueur": "Amata",
+			"numPost": 9,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 12,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 70,
+			"nomJoueur": "Pesik",
+			"prenomJoueur": "Cornall",
+			"numPost": 10,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 25,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 71,
+			"nomJoueur": "Holligan",
+			"prenomJoueur": "Della",
+			"numPost": 11,
+			"libellePost": "ailier",
+			"dureeDeJeu": 68,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 72,
+			"nomJoueur": "Ottosen",
+			"prenomJoueur": "Hercule",
+			"numPost": 12,
+			"libellePost": "centre",
+			"dureeDeJeu": 33,
+			"pointsMarques": 12,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 73,
+			"nomJoueur": "Sommerled",
+			"prenomJoueur": "Cyb",
+			"numPost": 13,
+			"libellePost": "centre",
+			"dureeDeJeu": 39,
+			"pointsMarques": 6,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 74,
+			"nomJoueur": "Lightbowne",
+			"prenomJoueur": "Selia",
+			"numPost": 14,
+			"libellePost": "ailier",
+			"dureeDeJeu": 34,
+			"pointsMarques": 5,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 75,
+			"nomJoueur": "Arnaldi",
+			"prenomJoueur": "Tawsha",
+			"numPost": 15,
+			"libellePost": "arriere",
+			"dureeDeJeu": 25,
+			"pointsMarques": 7,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 76,
+			"nomJoueur": "Foucar",
+			"prenomJoueur": "Evvie",
+			"numPost": 16,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 11,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 77,
+			"nomJoueur": "Gyde",
+			"prenomJoueur": "Tawsha",
+			"numPost": 17,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 64,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 78,
+			"nomJoueur": "Yearnes",
+			"prenomJoueur": "Lian",
+			"numPost": 18,
+			"libellePost": "pilier",
+			"dureeDeJeu": null,
+			"pointsMarques": 8,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 79,
+			"nomJoueur": "Farmar",
+			"prenomJoueur": "Juli",
+			"numPost": 19,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 76,
+			"pointsMarques": 2,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 80,
+			"nomJoueur": "Spatari",
+			"prenomJoueur": "Dennis",
+			"numPost": 20,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 60,
+			"pointsMarques": null,
+			"estTitulaire": false
+		}
+	],
+	"England": [
+		{
+			"idJoueur": 81,
+			"nomJoueur": "Darnody",
+			"prenomJoueur": "Rona",
+			"numPost": 1,
+			"libellePost": "pilier",
+			"dureeDeJeu": 66,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 82,
+			"nomJoueur": "Hindsberg",
+			"prenomJoueur": "Valma",
+			"numPost": 2,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 45,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 83,
+			"nomJoueur": "Longfellow",
+			"prenomJoueur": "Kristyn",
+			"numPost": 3,
+			"libellePost": "pilier",
+			"dureeDeJeu": 17,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 84,
+			"nomJoueur": "Pipe",
+			"prenomJoueur": "Prince",
+			"numPost": 4,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 47,
+			"pointsMarques": 3,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 85,
+			"nomJoueur": "Gentner",
+			"prenomJoueur": "Broddy",
+			"numPost": 5,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 53,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 86,
+			"nomJoueur": "Berkeley",
+			"prenomJoueur": "Lutero",
+			"numPost": 6,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 18,
+			"pointsMarques": 13,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 87,
+			"nomJoueur": "Crighton",
+			"prenomJoueur": "Jacobo",
+			"numPost": 7,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 32,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 88,
+			"nomJoueur": "Dyhouse",
+			"prenomJoueur": "Darline",
+			"numPost": 8,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 72,
+			"pointsMarques": 0,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 89,
+			"nomJoueur": "Casarino",
+			"prenomJoueur": "Mychal",
+			"numPost": 9,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 77,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 90,
+			"nomJoueur": "Hessay",
+			"prenomJoueur": "Fidela",
+			"numPost": 10,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 53,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 91,
+			"nomJoueur": "Lambersen",
+			"prenomJoueur": "Bret",
+			"numPost": 11,
+			"libellePost": "ailier",
+			"dureeDeJeu": 59,
+			"pointsMarques": 13,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 92,
+			"nomJoueur": "Casson",
+			"prenomJoueur": "Maurizia",
+			"numPost": 12,
+			"libellePost": "centre",
+			"dureeDeJeu": 31,
+			"pointsMarques": 1,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 93,
+			"nomJoueur": "Deneve",
+			"prenomJoueur": "Clovis",
+			"numPost": 13,
+			"libellePost": "centre",
+			"dureeDeJeu": 12,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 94,
+			"nomJoueur": "Staniforth",
+			"prenomJoueur": "Claretta",
+			"numPost": 14,
+			"libellePost": "ailier",
+			"dureeDeJeu": 26,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 95,
+			"nomJoueur": "Chillingworth",
+			"prenomJoueur": "Cyndi",
+			"numPost": 15,
+			"libellePost": "arriere",
+			"dureeDeJeu": 36,
+			"pointsMarques": 9,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 96,
+			"nomJoueur": "Belliss",
+			"prenomJoueur": "Preston",
+			"numPost": 16,
+			"libellePost": "centre",
+			"dureeDeJeu": 68,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 97,
+			"nomJoueur": "Broun",
+			"prenomJoueur": "Clio",
+			"numPost": 17,
+			"libellePost": "pilier",
+			"dureeDeJeu": 47,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 98,
+			"nomJoueur": "Hummerston",
+			"prenomJoueur": "Coletta",
+			"numPost": 18,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 56,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 99,
+			"nomJoueur": "Keogh",
+			"prenomJoueur": "Sofia",
+			"numPost": 19,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": null,
+			"pointsMarques": 7,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 100,
+			"nomJoueur": "Warder",
+			"prenomJoueur": "Annelise",
+			"numPost": 20,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 74,
+			"pointsMarques": null,
+			"estTitulaire": false
+		}
+	],
+	"South Africa": [
+		{
+			"idJoueur": 101,
+			"nomJoueur": "Scanderet",
+			"prenomJoueur": "Aidan",
+			"numPost": 1,
+			"libellePost": "pilier",
+			"dureeDeJeu": 57,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 102,
+			"nomJoueur": "Medler",
+			"prenomJoueur": "Bancroft",
+			"numPost": 2,
+			"libellePost": "talonneur",
+			"dureeDeJeu": 76,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 103,
+			"nomJoueur": "Di Filippo",
+			"prenomJoueur": "Viv",
+			"numPost": 3,
+			"libellePost": "pilier",
+			"dureeDeJeu": 58,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 104,
+			"nomJoueur": "Plak",
+			"prenomJoueur": "Letisha",
+			"numPost": 4,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": 56,
+			"pointsMarques": 9,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 105,
+			"nomJoueur": "McCarter",
+			"prenomJoueur": "Bernetta",
+			"numPost": 5,
+			"libellePost": "deuxieme ligne",
+			"dureeDeJeu": null,
+			"pointsMarques": 14,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 106,
+			"nomJoueur": "Dinning",
+			"prenomJoueur": "Erda",
+			"numPost": 6,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 79,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 107,
+			"nomJoueur": "Lescop",
+			"prenomJoueur": "Laurie",
+			"numPost": 7,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 36,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 108,
+			"nomJoueur": "Goggins",
+			"prenomJoueur": "Haroun",
+			"numPost": 8,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 109,
+			"nomJoueur": "Tabbernor",
+			"prenomJoueur": "Morty",
+			"numPost": 9,
+			"libellePost": "demi de melee",
+			"dureeDeJeu": 59,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 110,
+			"nomJoueur": "Brinkley",
+			"prenomJoueur": "Yolane",
+			"numPost": 10,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 111,
+			"nomJoueur": "Weed",
+			"prenomJoueur": "Kakalina",
+			"numPost": 11,
+			"libellePost": "ailier",
+			"dureeDeJeu": 59,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 112,
+			"nomJoueur": "Vignaux",
+			"prenomJoueur": "Fredra",
+			"numPost": 12,
+			"libellePost": "centre",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 113,
+			"nomJoueur": "Boddice",
+			"prenomJoueur": "Vance",
+			"numPost": 13,
+			"libellePost": "centre",
+			"dureeDeJeu": 42,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 114,
+			"nomJoueur": "Pietrusiak",
+			"prenomJoueur": "Silvester",
+			"numPost": 14,
+			"libellePost": "ailier",
+			"dureeDeJeu": 74,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 115,
+			"nomJoueur": "Wink",
+			"prenomJoueur": "Vinni",
+			"numPost": 15,
+			"libellePost": "arriere",
+			"dureeDeJeu": null,
+			"pointsMarques": null,
+			"estTitulaire": true
+		},
+		{
+			"idJoueur": 116,
+			"nomJoueur": "Oehm",
+			"prenomJoueur": "Ninnetta",
+			"numPost": 16,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 35,
+			"pointsMarques": 13,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 117,
+			"nomJoueur": "Wanklin",
+			"prenomJoueur": "Chelsey",
+			"numPost": 17,
+			"libellePost": "troisieme ligne",
+			"dureeDeJeu": 17,
+			"pointsMarques": 10,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 118,
+			"nomJoueur": "Atherton",
+			"prenomJoueur": "Petunia",
+			"numPost": 18,
+			"libellePost": "demi d ouverture",
+			"dureeDeJeu": 15,
+			"pointsMarques": null,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 119,
+			"nomJoueur": "Oda",
+			"prenomJoueur": "Anstice",
+			"numPost": 19,
+			"libellePost": "ailier",
+			"dureeDeJeu": null,
+			"pointsMarques": 10,
+			"estTitulaire": false
+		},
+		{
+			"idJoueur": 120,
+			"nomJoueur": "Vinall",
+			"prenomJoueur": "Shanna",
+			"numPost": 20,
+			"libellePost": "centre",
+			"dureeDeJeu": 62,
+			"pointsMarques": null,
+			"estTitulaire": false
+		}
+	]
+}

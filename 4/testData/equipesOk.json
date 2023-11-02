@@ -1,0 +1,38 @@
+[
+  {
+    "codeEquip": "FRA",
+    "pays": "France",
+    "couleurMaillot": "Blue",
+    "coach": "Fabien Galtie"
+  },
+  {
+    "codeEquip": "IRL",
+    "pays": "Ireland",
+    "couleurMaillot": "green",
+    "coach": "Ricardo MacCarrick"
+  },
+  {
+    "codeEquip": "NZL",
+    "pays": "New zealand",
+    "couleurMaillot": "Black",
+    "coach": "Donall Treske"
+  },
+  {
+    "codeEquip": "TON",
+    "pays": "Tonga",
+    "couleurMaillot": "Red",
+    "coach": "Carson Cashell"
+  },
+  {
+    "codeEquip": "ENG",
+    "pays": "England",
+    "couleurMaillot": "White",
+    "coach": "Madeleine Cassely"
+  },
+  {
+    "codeEquip": "SOU",
+    "pays": "South africa",
+    "couleurMaillot": "yellow",
+    "coach": "Carolan Delves"
+  }
+]

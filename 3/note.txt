@@ -1,0 +1,3 @@
+pour la question 3 j'ai créé un base de donnée mongo grâce à compass 
+et ai choisi d orienté cette bd no sql vers une base de donnée orienté document sur les matchs. 
+J'ai donc créé une collection "matchs" 

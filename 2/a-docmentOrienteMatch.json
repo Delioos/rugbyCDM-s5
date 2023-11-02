@@ -1,0 +1,65 @@
+// soit un objet match qu'on pourrait reproduire pour chaque rencontre
+
+{
+    "id": "",
+    "date": "",
+    "nbSpectateurs": 0,
+    "arbitres": [
+        {
+            "idArbitre": "",
+            "nomArbitre": "",
+            "prenomArbitre": "",
+            "nationalite": ""
+        }
+    ],
+    "stade": {
+        "id": "",
+        "ville": "",
+        "pays": "",
+        "nomStade": "",
+        "capacite": 0
+    },
+    "equipeDomicile": {
+        "codeEquipe": "",
+        "pays": "",
+        "couleurMaillot": "",
+        "coach": "",
+        "joueurs": [
+            {
+                "idJoueur": "",
+                "nomJoueur": "",
+                "prenomJoueur": "",
+                "poste": {
+                    "numPoste": "",
+                    "libellePoste": ""
+                },
+                "estTitulaire": false,
+                "dureeDeJeu": 0,
+                "pointsMarques": 0
+            }
+        ],
+        "pointsMarques": 0
+    },
+    "equipeExterieure": {
+        "codeEquipe": "",
+        "pays": "",
+        "couleurMaillot": "",
+        "coach": "",
+        "joueurs": [
+            {
+                "idJoueur": "",
+                "nomJoueur": "",
+                "prenomJoueur": "",
+                "poste": {
+                    "numPoste": "",
+                    "libellePoste": ""
+                },
+                "estTitulaire": false,
+                "dureeDeJeu": 0,
+                "pointsMarques": 0
+            }
+        ],
+        "pointsMarques": 0
+    }
+}
+

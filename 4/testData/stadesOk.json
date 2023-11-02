@@ -1,0 +1,142 @@
+[
+  {
+    "idStade": 1,
+    "ville": "Marseille",
+    "nomStade": "Bogisich-Pagac",
+    "paysStade": "France",
+    "capacite": 280523
+  },
+  {
+    "idStade": 2,
+    "ville": "Bat Khela",
+    "nomStade": "Braun, Rohan and Hickle",
+    "paysStade": "Ireland",
+    "capacite": 253266
+  },
+  {
+    "idStade": 3,
+    "ville": "Çlirim",
+    "nomStade": "Veum-Grady",
+    "paysStade": "New zeland",
+    "capacite": 204320
+  },
+  {
+    "idStade": 4,
+    "ville": "Demyansk",
+    "nomStade": "Harvey-Mayer",
+    "paysStade": "Tonga",
+    "capacite": 283083
+  },
+  {
+    "idStade": 5,
+    "ville": "Krajan",
+    "nomStade": "Donnelly, Reynolds and Donnelly",
+    "paysStade": "England",
+    "capacite": 203040
+  },
+  {
+    "idStade": 6,
+    "ville": "Kuźnia Raciborska",
+    "nomStade": "Becker Inc",
+    "paysStade": "South africa",
+    "capacite": 257597
+  },
+  {
+    "idStade": 7,
+    "ville": "Pnikut",
+    "nomStade": "Price-Lakin",
+    "paysStade": "France",
+    "capacite": 211520
+  },
+  {
+    "idStade": 8,
+    "ville": "Kaznějov",
+    "nomStade": "Wiza Group",
+    "paysStade": "Ireland",
+    "capacite": 263006
+  },
+  {
+    "idStade": 9,
+    "ville": "Géfyra",
+    "nomStade": "Dickens-Walsh",
+    "paysStade": "New zeland",
+    "capacite": 273025
+  },
+  {
+    "idStade": 10,
+    "ville": "Palmira",
+    "nomStade": "Oberbrunner-Mohr",
+    "paysStade": "Tonga",
+    "capacite": 265532
+  },
+  {
+    "idStade": 11,
+    "ville": "Baruchowo",
+    "nomStade": "Harber Group",
+    "paysStade": "England",
+    "capacite": 271986
+  },
+  {
+    "idStade": 12,
+    "ville": "Herrljunga",
+    "nomStade": "Bruen and Sons",
+    "paysStade": "England",
+    "capacite": 265441
+  },
+  {
+    "idStade": 13,
+    "ville": "Kousa",
+    "nomStade": "Schaden and Sons",
+    "paysStade": "South africa",
+    "capacite": 257303
+  },
+  {
+    "idStade": 14,
+    "ville": "Longhua",
+    "nomStade": "Kreiger and Sons",
+    "paysStade": "Tonga",
+    "capacite": 256307
+  },
+  {
+    "idStade": 15,
+    "ville": "Aleksandrovac",
+    "nomStade": "Russel, Jaskolski and Beier",
+    "paysStade": "France",
+    "capacite": 290408
+  },
+  {
+    "idStade": 16,
+    "ville": "Huntington",
+    "nomStade": "Stokes, O'Reilly and Macejkovic",
+    "paysStade": "Ireland",
+    "capacite": 226746
+  },
+  {
+    "idStade": 17,
+    "ville": "Olleros",
+    "nomStade": "Erdman-Goodwin",
+    "paysStade": "South africa",
+    "capacite": 255408
+  },
+  {
+    "idStade": 18,
+    "ville": "Nanao",
+    "nomStade": "Schmidt and Sons",
+    "paysStade": "France",
+    "capacite": 263742
+  },
+  {
+    "idStade": 19,
+    "ville": "Changtang",
+    "nomStade": "Macejkovic-Heaney",
+    "paysStade": "France",
+    "capacite": 237516
+  },
+  {
+    "idStade": 20,
+    "ville": "Fier",
+    "nomStade": "Fay-Muller",
+    "paysStade": "France",
+    "capacite": 286417
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "equipe": {
+    "codeEquipe": "",
+    "pays": "",
+    "coach": "",
+    "joueurs": [
+      {
+        "idJoueur": "",
+        "nomJoueur": "",
+        "prenomJoueur": "",
+        "poste": {
+          "numPoste": "",
+          "libelle": ""
+        }
+      }
+    ],
+    "matches": [
+      {
+        "idMatch": "",
+        "stade": {
+          "idStade": "",
+          "ville": "",
+          "paysStade": "",
+          "nomStade": "",
+          "capacite": ""
+        },
+        "nbSpectateurs": "",
+        "arbitres": [
+          {
+            "idArbitre": "",
+            "nomArbitre": "",
+            "prenomArbitre": "",
+            "nationalite": ""
+          }
+        ],
+        "etreADomicile": "",
+        "pointsMarques": "",
+        "equipeAdverse": {
+          "codeEquipe": "",
+          "pointsEquipeAdverse": ""
+        },
+        "joueurs": [
+          {
+            "idJoueur": "",
+            "estTitulaire": "",
+            "dureeDeJeu": "",
+            "pointsMarquesJoueur": ""
+          }
+        ]
+      }
+    ]
+  }
+}
