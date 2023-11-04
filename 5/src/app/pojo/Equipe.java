@@ -58,5 +58,9 @@ public class Equipe {
         this.pointsMarques = pointsMarques;
     }
 
+    public String getNationalite() {
+        return this.pays;
+    }
+
     // Ajoute les getters et setters pour tous les attributs
 }

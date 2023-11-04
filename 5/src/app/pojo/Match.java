@@ -1,5 +1,7 @@
 package app.pojo;
 
+import org.bson.BsonValue;
+
 import java.util.List;
 
 public class Match {
@@ -10,7 +12,12 @@ public class Match {
     private Stade stade;
     private Equipe equipeDomicile;
     private Equipe equipeVisiteur;
+    private String codeMatch;
 
+    public BsonValue getIdBson() {
+        // TODO ?
+        return
+    }
     public int getId() {
         return id;
     }
@@ -66,6 +73,19 @@ public class Match {
     public void setEquipeVisiteur(Equipe equipeVisiteur) {
         this.equipeVisiteur = equipeVisiteur;
     }
+
+    public void setCodeMatch(String codeMatch) {
+        this.codeMatch = codeMatch;
+    }
+
+    public String getNatioD() {
+        return this.equipeDomicile.getNationalite();
+    }
+
+    public String getNatioE() {
+        return this.equipeVisiteur.getNationalite();
+    }
+
 
     // Ajouter les getters et setters pour tous les attributs
 }

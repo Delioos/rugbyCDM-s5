@@ -1,5 +1,7 @@
 package app.pojo;
 
+import static java.lang.Float.NaN;
+
 public class Joueur {
     private int idJoueur;
     private String nomJoueur;
@@ -11,6 +13,42 @@ public class Joueur {
     private int nbEssais;
     private int nbCoupDePied;
     private int pointsMarques;
+    private float coef;
+
+    public Joueur(int idJoueur, String nomJoueur, String prenomJoueur, int numPost, String libellePost, int dureeDeJeu, boolean estTitulaire, int nbEssais, int nbCoupDePied, int pointsMarques) {
+        this.idJoueur = idJoueur;
+        this.nomJoueur = nomJoueur;
+        this.prenomJoueur = prenomJoueur;
+        this.numPost = numPost;
+        this.libellePost = libellePost;
+        this.dureeDeJeu = dureeDeJeu;
+        this.estTitulaire = estTitulaire;
+        this.nbEssais = nbEssais;
+        this.nbCoupDePied = nbCoupDePied;
+        this.pointsMarques = pointsMarques;
+        this.coef = this.calculCoef();
+    }
+
+    public void cumulerDonneesJoueur(Joueur joueur) {
+        this.dureeDeJeu += joueur.getDureeDeJeu();
+        this.nbEssais += joueur.getNbEssais();
+        this.nbCoupDePied += joueur.getNbCoupDePied();
+    }
+
+
+    public float calculCoef() {
+        return (float) this.pointsMarques / this.dureeDeJeu;
+    }
+    public float getCoef() {
+        if (this.dureeDeJeu == 0)
+            return 0;
+        return this.coef;
+    }
+
+    public void setCoef(float coef) {
+        this.coef = coef;
+    }
+
 
     public int getIdJoueur() {
         return idJoueur;
