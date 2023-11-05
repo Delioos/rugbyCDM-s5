@@ -22,6 +22,7 @@ public class Question1 {
         this.data = data;
         // recuperer la liste des differents pays
         Utils utils = new Utils();
+
         String codeEquipe = utils.demanderEquipe(data);
         afficherJoueursEquipeE(codeEquipe);
     }

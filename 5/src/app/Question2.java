@@ -35,11 +35,27 @@ public class Question2 {
     }
 
     private void rechercherMatchsParScore(String date, int nombrePoints) {
+        // on verifie que la date est valide en utilisant une regex
+        if (!date.matches("\\d{2}/\\d{2}/\\d{4}")) {
+            System.out.println("La date saisie n'est pas valide le format doit être : JJ/MM/AAAA");
+            return;
+        }
         // Filtre pour récupérer les matchs à la date spécifiée
         Bson filter = eq("date", date);
 
         // Récupérer les matchs correspondants à la date spécifiée
         List<BsonDocument> matchs = data.find(filter).into(new ArrayList<>());
+
+        if (matchs.size() == 0) {
+            System.out.println("Aucun match n'a été trouvé à la date spécifiée");
+            System.out.println("il y a eu des matchs aux dates suivantes : ");
+            // on recupere toutes les dates de matchs
+            List<BsonDocument> matchsDates = data.find().into(new ArrayList<>());
+            for (BsonDocument match : matchsDates) {
+                System.out.println(match.getString("date").getValue());
+            }
+            return;
+        }
 
         // Parcourir les matchs et vérifier si le score d'une des équipes dépasse le nombre de points spécifié
         for (BsonDocument match : matchs) {
@@ -54,6 +70,9 @@ public class Question2 {
                 String teamsScores = scoreEquipeDomicile + " - " + scoreEquipeVisiteur;
 
                 System.out.println("Match #" + idMatch + " (" + dateMatch + ") : " + teamsCodes + " (" + teamsScores + ") - " + nbSpectateurs + " spectateurs");
+            }
+            else {
+                System.out.println("le match #" + match.getInt32("id").getValue() + " (" + match.getString("date").getValue() + ") n'a pas dépassé le nombre de points spécifié");
             }
         }
     }

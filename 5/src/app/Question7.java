@@ -27,21 +27,34 @@ public class Question7 {
 
         // on propose toutes les équipes
         List<String> codesEquipes = recupererCodesEquipes();
+        boolean exit = false;
 
-        Boolean continuer = true;
+        while (!exit){
+            Utils utils = new Utils();
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Voulez vous saisir les équipes ? (y/n)");
+            String saisie = sc.nextLine();
+            if (saisie.equals("n")){
+                exit = true;
+                break;
+            }
+            // scanner pour récupérer le code de l'équipe
+            System.out.println("Veuillez saisir le code de l'équipe E1 : ");
+            String codeEquipeE1 = utils.demanderEquipe(this.data);
+            System.out.println("Veuillez saisir le code de l'équipe E2 : ");
+            String codeEquipeE2 = utils.demanderEquipe(this.data);
+            System.out.println("Veuillez saisir le code de l'équipe E3 : ");
+            String codeEquipeE3 = utils.demanderEquipe(this.data);
 
-        // afficher la liste des differents pays
-        codesEquipes.forEach(System.out::println);
-
-        // scanner pour récupérer le code de l'équipe
-        System.out.println("Veuillez saisir le code de l'équipe E1 : ");
-        Scanner sc = new Scanner(System.in);
-        String codeEquipeE1 = sc.nextLine();
-        System.out.println("Veuillez saisir le code de l'équipe E2 : ");
-        String codeEquipeE2 = sc.nextLine();
-        System.out.println("Veuillez saisir le code de l'équipe E3 : ");
-        String codeEquipeE3 = sc.nextLine();
-
+            // on verifie si les équipes sont valides
+            if (codesEquipes.contains(codeEquipeE1) && codesEquipes.contains(codeEquipeE2) && codesEquipes.contains(codeEquipeE3)) {
+                // si le code est valide, afficher les joueurs de l'équipe
+                this.afficherJoueursEquipeEContreEquipes(codeEquipeE1, codeEquipeE2, codeEquipeE3);
+                exit = true;
+            } else {
+                System.out.println("L'un des codes d'équipe n'est pas valide.");
+            }
+        }
 
         this.afficherJoueursEquipeEContreEquipes("E1", "E2", "E3");
 

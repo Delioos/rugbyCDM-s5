@@ -44,22 +44,27 @@ public class Utils {
     }
 
     public String demanderEquipe(MongoCollection<BsonDocument> data) {
-        // TODO : faire une boucle pour que l'utilisateur puisse recommencer ou sortir / faire un miss input et recommencer
+
         List<String> codesEquipes = recupererCodesEquipes(data);
 
-        Boolean continuer = true;
-
-        // afficher la liste des differents pays
-        codesEquipes.forEach(System.out::println);
-        // scanner pour récupérer le code de l'équipe
-        System.out.println("Veuillez saisir le code de l'équipe : ");
-        Scanner sc = new Scanner(System.in);
-        String codeEquipe = sc.nextLine();
-        // si le code est valide, afficher les joueurs de l'équipe
-        if (codesEquipes.contains(codeEquipe)) {
-            return codeEquipe;
-        } else {
-            System.out.println("Code invalide");
+        Boolean exit = false;
+        while (!exit) {
+            // afficher la liste des differents pays
+            codesEquipes.forEach(System.out::println);
+            // scanner pour récupérer le code de l'équipe
+            System.out.println("Veuillez saisir le code de l'équipe ou  q pour quitter:");
+            Scanner sc = new Scanner(System.in);
+            String codeEquipe = sc.nextLine().toUpperCase();
+            // si le code est valide, afficher les joueurs de l'équipe
+            if (codeEquipe.equals("Q")) {
+                exit = true;
+                return null;
+            } else
+            if (codesEquipes.contains(codeEquipe)) {
+                return codeEquipe;
+            } else {
+                System.out.println("Code invalide");
+            }
         }
         return null;
     }

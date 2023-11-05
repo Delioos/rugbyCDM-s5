@@ -21,10 +21,25 @@ public class Question3 {
     public Question3(MongoCollection<BsonDocument> data) {
         this.data = data;
 
-        // on scanne l'ID de l'arbitre A
-        System.out.println("Veuillez saisir l'ID de l'arbitre A : ");
-        Scanner sc = new Scanner(System.in);
-        int idArbitreA = sc.nextInt();
+        boolean exit = false;
+        int idArbitreA = 0;
+        while (!exit) {
+            // on scanne l'ID de l'arbitre A
+            System.out.println("Veuillez saisir l'ID de l'arbitre A : (1-20) - 0 pour quitter");
+            Scanner sc = new Scanner(System.in);
+            idArbitreA = sc.nextInt();
+            if (idArbitreA == 0) {
+                exit = true;
+                break;
+            }
+            // on verifie que l'ID est valide
+            if (idArbitreA < 1 || idArbitreA > 20) {
+                System.out.println("L'ID de l'arbitre doit être compris entre 1 et 20");
+                continue;
+            } else {
+                exit = true;
+            }
+        }
 
         // on utilise la méthode qui va nous permettre d'afficher les équipes
         this.rechercherEquipesParArbitre(idArbitreA);
