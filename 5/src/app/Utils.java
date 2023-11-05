@@ -1,9 +1,11 @@
 package app;
 
 import app.pojo.Arbitre;
+import app.pojo.Equipe;
 import app.pojo.Match;
 import app.pojo.StatistiquesJoueur;
 import com.mongodb.client.MongoCollection;
+import com.sun.tools.jconsole.JConsoleContext;
 import org.bson.BsonArray;
 import org.bson.BsonDocument;
 import org.bson.BsonValue;
@@ -62,7 +64,7 @@ public class Utils {
         return null;
     }
 
-    public Map<String, StatistiquesJoueur> getStats(String codeEquip, MongoCollection<BsonDocument> data ) {
+    public Map<String, StatistiquesJoueur> getStats(String codeEquip, MongoCollection<BsonDocument> data) {
         // Filtre pour récupérer les matchs de l'équipe spécifiée
         Bson filter = or(eq("equipeDomicile.codeEquip", codeEquip), eq("equipeExterieure.codeEquip", codeEquip));
 
@@ -125,7 +127,7 @@ public class Utils {
         Boolean continuer = true;
         // afficher la liste des differents pays
         arbitres.forEach(arb -> {
-            System.out.println(arb.getIdArbitre() + " " + arb.getNomArbitre() + " " + arb.getPrenomArbitre() + " " + arb.getNationalite());
+            System.out.println(arb.getIdArbitre() + " " + arb.getNomArbitre() + " " + arb.getPrenomArbitre() + "  -- " + arb.getNationalite());
         });
         // scanner pour récupérer le code de l'équipe
         System.out.println("Veuillez saisir l'id de l'arbitre : ");
@@ -147,27 +149,29 @@ public class Utils {
         // Récupérer tous les matchs
         List<BsonDocument> matchs = data.find().into(new ArrayList<>());
 
-        // Parcourir les matchs et extraire les codes d'équipe uniques
+        // parcourir les matchs et recuperer les arbitres
         for (BsonDocument match : matchs) {
             BsonArray arbitresMatch = match.getArray("arbitres");
+
+
             for (BsonValue arbitreValue : arbitresMatch) {
                 if (arbitreValue instanceof BsonDocument) {
                     BsonDocument arbitre = (BsonDocument) arbitreValue;
                     Arbitre a = new Arbitre();
-                    a.setIdArbitre(arbitre.getInt32("idArbitre").getValue());
+                    int id = (arbitre.getInt32(arbitre.getFirstKey()).getValue());
+                    a.setIdArbitre(id);
                     a.setNomArbitre(arbitre.getString("nomArbitre").getValue());
                     a.setPrenomArbitre(arbitre.getString("prenomArbitre").getValue());
                     a.setNationalite(arbitre.getString("nationalite").getValue());
-
                     if (!arbitres.contains(a)) {
                         arbitres.add(a);
                     }
+
                 }
             }
-
-
         }
-
+        // on classe les arbitres par id
+        arbitres.sort(Comparator.comparingInt(Arbitre::getIdArbitre));
         return arbitres;
     }
 
@@ -182,14 +186,27 @@ public class Utils {
         // afficher la liste des differents pays
         matchsCodes.forEach(System.out::println);
         // scanner pour récupérer le code de l'équipe
-        System.out.println("Veuillez saisir le code du match : ");
+        System.out.println("Veuillez saisir l'id du match : ");
         Scanner sc = new Scanner(System.in);
-        int codeMatch = parseInt(sc.nextLine());
-        // si le code est valide, afficher les joueurs de l'équipe
-        if (matchsCodes.contains(codeMatch)) {
-            BsonDocument match = matchs.get(codeMatch);
+        int idMatch = parseInt(sc.nextLine());
+        // si matchscodes contient bien l id comment premier caractere d une des string
+        boolean matchExiste = false;
+        if (data.find(eq("id", idMatch)).first() != null) {
+            matchExiste = true;
+        }
+        if (matchExiste) {
+            // on recupere le match grâce a l id
+            BsonDocument match = data.find(eq("id", idMatch)).first();
             Match m = new Match();
-            m.setId(codeMatch);
+            m.setId(idMatch);
+            // on ne setup que les infos dont on a besoin
+            Equipe equipeDomicile = new Equipe();
+            equipeDomicile.setPays(match.getDocument("equipeDomicile").getString("pays").getValue());
+
+            Equipe equipeExterieure = new Equipe();
+            equipeExterieure.setPays(match.getDocument("equipeExterieure").getString("pays").getValue());
+            m.setEquipeDomicile(equipeDomicile);
+            m.setEquipeExterieure(equipeExterieure);
             // on recupere les arbitres et on les transforme en objet arbitre
             List<Arbitre> arbitres = new ArrayList<>();
             BsonArray arbitresMatch = match.getArray("arbitres");
@@ -207,6 +224,7 @@ public class Utils {
                     }
                 }
             }
+            m.setArbitres(arbitres);
             return m;
         } else {
             System.out.println("Code invalide");
@@ -219,13 +237,14 @@ public class Utils {
 
         // Récupérer tous les matchs
         List<BsonDocument> matchsBson = data.find().into(new ArrayList<>());
-
+        int id = 1;
         // Parcourir les matchs et extraire les codes d'équipe uniques
         for (BsonDocument match : matchsBson) {
             // on construit la variable codeMatch a partir du codeEquip de l equipe a domicile et de l equipe a l exterieur
-            String codeMatch = match.getDocument("equipeDomicile").getString("codeEquip").getValue() + match.getDocument("equipeExterieure").getString("codeEquip").getValue();
+            String codeMatch = id + " " + match.getDocument("equipeDomicile").getString("codeEquip").getValue() + " - " + match.getDocument("equipeExterieure").getString("codeEquip").getValue();
             if (!matchs.contains(codeMatch)) {
                 matchs.add(codeMatch);
+                id++;
             }
         }
 

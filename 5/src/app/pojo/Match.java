@@ -1,7 +1,5 @@
 package app.pojo;
 
-import org.bson.BsonValue;
-
 import java.util.List;
 
 public class Match {
@@ -11,13 +9,9 @@ public class Match {
     private List<Arbitre> arbitres;
     private Stade stade;
     private Equipe equipeDomicile;
-    private Equipe equipeVisiteur;
+    private Equipe equipeExterieure;
     private String codeMatch;
 
-    public BsonValue getIdBson() {
-        // TODO ?
-        return
-    }
     public int getId() {
         return id;
     }
@@ -66,12 +60,12 @@ public class Match {
         this.equipeDomicile = equipeDomicile;
     }
 
-    public Equipe getEquipeVisiteur() {
-        return equipeVisiteur;
+    public Equipe getEquipeExterieure() {
+        return equipeExterieure;
     }
 
-    public void setEquipeVisiteur(Equipe equipeVisiteur) {
-        this.equipeVisiteur = equipeVisiteur;
+    public void setEquipeExterieure(Equipe equipeVisiteur) {
+        this.equipeExterieure = equipeVisiteur;
     }
 
     public void setCodeMatch(String codeMatch) {
@@ -83,7 +77,7 @@ public class Match {
     }
 
     public String getNatioE() {
-        return this.equipeVisiteur.getNationalite();
+        return this.equipeExterieure.getNationalite();
     }
 
 
